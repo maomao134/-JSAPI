@@ -1,0 +1,24 @@
+{
+  "name": "文件终端工具箱",
+  "appid": "8002048151526021",
+  "version": "1.0.0",
+  "description": "词典笔自定义 JSAPI 演示：文件操作 + 终端命令",
+  "icon": "app_icon.png",
+  "quickjs": {
+    "version": "20200705",
+    "bigNum": false
+  },
+  "single-js-bundle": false,
+  "scripts": {
+    "build": "aiot-cli -p",
+    "build:dev": "aiot-cli",
+    "build:prod": "aiot-cli -c -q -p"
+  },
+  "keywords": [
+    "iot",
+    "miniapp"
+  ],
+  "dependencies": {
+    "falcon-ui": "^2.0.2"
+  }
+}
